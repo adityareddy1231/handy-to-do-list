@@ -32,5 +32,5 @@ $("input[type='text']").keypress(function(e) {
 
 //Plus sign functionality for hiding or showing input box;
 $(".fa-plus").on('click', function() {
-  $("input[type='text']").fadeToggle();
+  $("input[type='text']").slideToggle();
 });
